@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Muzaffarpur Today Pvt. Ltd.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+    header {
+      background: #006400;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    header img {
+      height: 50px;
+      margin-right: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+    .container {
+      padding: 10px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 20px;
+      background: white;
+      padding: 15px;
+      border-left: 5px solid #006400;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+    .news-card {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background: #fdfdfd;
+    }
+    .news-card h3 {
+      margin: 0 0 5px 0;
+      font-size: 16px;
+    }
+    .news-card p {
+      margin: 0;
+      font-size: 14px;
+    }
+    .news-card a {
+      font-size: 13px;
+      display: inline-block;
+      margin-top: 5px;
+      color: #006400;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      header h1 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Muzaffarpur Today Pvt. Ltd.</h2>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>📰 Live National News</h2>
+      <div id="news-container">⚠️ Unable to load live news in this version. Server required.</div>
+    </div>
+
+    <div class="section">
+      <h2>📘 Facebook Page</h2>
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmuz2day&tabs=timeline&width=500&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true"
+        allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+      </iframe>
+    </div>
+
+    <div class="section">
+      <h2>📺 YouTube Channel</h2>
+      <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=UCm2NCJ3fljyZ3xN0p8ZMSBw" allowfullscreen></iframe>
+    </div>
+
+  </div>
+
+</body>
+</html>
